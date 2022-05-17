@@ -1,0 +1,189 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: arial;
+    box-sizing:border-box;
+}
+
+body
+{
+    background-color: grey;
+}
+
+
+#kontener
+{ 
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+#produkty
+{
+	max-width: 250px;
+	width: 22%;
+	height: 220px;
+	margin: 15px 15px;
+	float:left;
+}
+#logoGry
+{
+	margin-top: 15px;
+	
+	width: 60%;
+	height: 400px;
+	float:left;
+   
+}
+#nazwaGry
+{
+	margin-top: 15px;
+	
+	width: 40%;
+	height: 100px;
+	float:left
+}
+#opisGry
+{
+	margin-top: 15px;
+	;
+	width: 40%;
+	padding-bottom:15px;
+	float:left
+}
+
+
+
+
+header img
+{
+    width: 100%;
+    display: block;
+}
+
+nav
+{
+    background-color: aqua;
+    
+    
+}
+a.menu
+{
+    display: inline-block;
+    width: 25%;
+    padding: 15px 30px;
+    color:red;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition:all 1s ease;
+    transition: all 1s ease;
+    
+}
+a.menu:hover
+{
+    background-color: darkgrey;
+}
+.aktywne
+{
+    background-color: darkgrey;
+}
+
+article
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+article h1
+{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 5% 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid red;
+}
+article h2
+{
+	    font-size: 30px;
+    text-align: center;
+    margin: 0 5% 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid red;
+}
+.kontakt
+{
+	   font-size: 30px;
+    text-align: center;
+    margin: 0 5% 20px;
+    padding-bottom: 15px;
+	 line-height: 50px;
+    border-bottom: 2px solid red;
+}
+.regulamin
+{
+	   font-size: 20px;
+   
+    margin: 0 5% 20px;
+    padding-bottom: 15px;
+	 line-height: 25px;
+    border-bottom: 2px solid red;
+}
+.miniatura
+{
+    float: left;
+    padding: 10px 10px 10px 0;
+    width: 25%;
+        
+}
+.okladka
+{
+    align: center;
+}
+.duzyObraz
+{
+	
+	 float: left;
+    padding: 10px 10px 10px 0;
+    width: 100%;
+	
+}
+article p
+{
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 15px 0;
+}
+.naglowekGry
+{
+	 font-size: 30px;
+    text-align: center;
+    margin: 0 5% 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid red;
+}
+
+
+
+footer
+{
+    height: 100px;
+    background-color: chocolate;
+    line-height: 100px;
+    text-align: center;
+    margin-top: 20px;
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
